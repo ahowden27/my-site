@@ -1,1 +1,3 @@
-# test.github.io
+# my-site
+
+Welcome to my site
