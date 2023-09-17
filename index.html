@@ -7,6 +7,8 @@
     <title>Alex Howden</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="scripts.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/03400c0945.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div id="header">
@@ -71,32 +73,57 @@
         <div class="project-list">
             <div class="project">
                 <img src="images/project1.png">
+                <div class="layer">
+                    <h3>Minecraft</h3>
+                    <p>I play minecraft.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>
+                </div>
             </div>
             <div class="project">
                 <img src="images/project2.png">
+                <div class="layer">
+                    <h3>Porsche</h3>
+                    <p>This is my porsche.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>
+                </div>
             </div>
             <div class="project">
                 <img src="images/project3.png">
+                <div class="layer">
+                    <h3>Rice Farmer</h3>
+                    <p>My discord bot.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- --------------contact----------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="https://github.com/ahowden27" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/alex-howden-044b1725b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://discord.com/users/472088550813204481" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                </div>
+                <a href="images/ahowden-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
             </div>
         </div>
     </div>
 </div>
-<!-- --------------scripts----------- -->
-<script>
-    var tablinks = document.getElementsByClassName("tab-links")
-    var tabcontents = document.getElementsByClassName("tab-contents")
-    
-    function opentab(tabname) {
-        for (tablink of tablinks) {
-            tablink.classList.remove("active-link")
-        }
-        for (tabcontent of tabcontents) {
-            tabcontent.classList.remove("active-tab")
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab")
-    }
-</script>
-
 </body>
 </html>
