@@ -60,10 +60,13 @@ nav ul li a:hover::after{
 }
 .header-text h1{
     font-size: 60px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .header-text h1 span{
     color: #ff004f;
+    background: linear-gradient(to right, #ff4a84, #710000);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 .header-text p{
     margin-top: 20px;
